@@ -20,7 +20,7 @@ In this section 7 different models are built using different ML algorithms. They
 6. Gradient Boosting 
 7. XGBoost
 ```
-The models are trained using data from https://archive.ics.uci.edu/ml/index.php, particularly the [Heart Attack Prediction](https://github.com/advikmaniar/ML-Heathcare-Web-App/blob/main/Data/heart.csv) and [Breast Cancer (Wisconsin)](https://github.com/advikmaniar/ML-Heathcare-Web-App/blob/main/Data/BreastCancer.csv) datasets.
+The models are trained using data from https://archive.ics.uci.edu/ml/index.php, particularly the [Heart Attack Prediction](https://github.com/shivamkc01/ML_in_healthcare_app-/blob/main/Data/heart.csv) and [Breast Cancer (Wisconsin)](https://github.com/shivamkc01/ML_in_healthcare_app-/blob/main/Data/BreastCancer.csv) datasets.
 
 An interactive side-dashboard is created using the streamlit `st.sidebar` call which enables the user to do the following:
 1. Choose dataset - `Heart Attack / Breast Cancer`
