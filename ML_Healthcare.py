@@ -29,7 +29,7 @@ tit1.markdown("<h1 style='text-align: center;'><u>Machine Learning in Healthcare
 tit2.image("healthcare2.png")
 st.sidebar.title("Dataset and Classifier")
 
-dataset_name=st.sidebar.selectbox("Select Dataset: ",('Dispersion Emission',"CEMS"))
+dataset_name=st.sidebar.selectbox("Select Dataset: ",('Heart Attack',"Breast Cancer"))
 classifier_name = st.sidebar.selectbox("Select Classifier: ",("Logistic Regression","KNN","SVM","Decision Trees",
                                                               "Random Forest","Gradient Boosting","XGBoost"))
 
